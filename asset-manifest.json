@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/diet-app/static/css/main.99805191.chunk.css",
+    "main.js": "/diet-app/static/js/main.6aa60bb2.chunk.js",
+    "main.js.map": "/diet-app/static/js/main.6aa60bb2.chunk.js.map",
+    "runtime-main.js": "/diet-app/static/js/runtime-main.277ecc75.js",
+    "runtime-main.js.map": "/diet-app/static/js/runtime-main.277ecc75.js.map",
+    "static/js/2.957e689d.chunk.js": "/diet-app/static/js/2.957e689d.chunk.js",
+    "static/js/2.957e689d.chunk.js.map": "/diet-app/static/js/2.957e689d.chunk.js.map",
+    "index.html": "/diet-app/index.html",
+    "static/css/main.99805191.chunk.css.map": "/diet-app/static/css/main.99805191.chunk.css.map",
+    "static/js/2.957e689d.chunk.js.LICENSE.txt": "/diet-app/static/js/2.957e689d.chunk.js.LICENSE.txt",
+    "static/media/chiken.aa9a22a4.png": "/diet-app/static/media/chiken.aa9a22a4.png",
+    "static/media/egg.999c36e2.png": "/diet-app/static/media/egg.999c36e2.png",
+    "static/media/meat.bb3031d5.png": "/diet-app/static/media/meat.bb3031d5.png",
+    "static/media/rice.6e450f76.png": "/diet-app/static/media/rice.6e450f76.png",
+    "static/media/salmon.0cbf3026.png": "/diet-app/static/media/salmon.0cbf3026.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.277ecc75.js",
+    "static/js/2.957e689d.chunk.js",
+    "static/css/main.99805191.chunk.css",
+    "static/js/main.6aa60bb2.chunk.js"
+  ]
+}
