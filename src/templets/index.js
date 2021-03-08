@@ -1,0 +1,6 @@
+export {default as Home} from "./Home"
+export {default as Meat} from "./Meat"
+export {default as Rice} from "./Rice"
+export {default as Egg} from "./Egg"
+export {default as Salmon} from "./Salmon"
+export {default as Other} from "./Other"

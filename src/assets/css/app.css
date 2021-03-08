@@ -1,0 +1,48 @@
+.app{
+  padding-bottom: 40px;
+}
+
+/* header */
+.header{
+  margin-bottom: 40px;
+ 
+}
+.header-container{
+  max-width: 800px;
+  height: 100px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.header-head{
+  background-color:#4dd0e1b7;
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1em
+}
+
+.header-button{
+  width: 30%;
+
+}
+
+/* footer */
+.footer{
+  margin-top: 40px;
+}
+.footer-top{
+  width:150px;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgrey;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: double 5px #ffc654;
+}

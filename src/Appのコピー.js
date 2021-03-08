@@ -1,7 +1,15 @@
+import React from "react"
 import logo from './logo.svg';
 import './App.css';
+import { useDispatch, useSelector } from 'react-redux';
+import { signInAction } from './reducers/users/action';
+import { appleProduct } from "./reducers/products/action"
 
 function App() {
+  const dispatch = useDispatch();
+  const selector =useSelector((state)=>state)
+  const val=2;
+  console.log(selector)
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +25,11 @@ function App() {
         >
           Learn React
         </a>
+        <p>{selector.users.username}</p>
+        
+        <button onClick={()=>dispatch(signInAction({uid:"0001",username:1*val}))}>
+          kkeejidjfiojf
+        </button >
       </header>
     </div>
   );

@@ -1,0 +1,82 @@
+/* 共通のcss */
+.allClass{
+  position: relative;
+  height: auto;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 20px 40px 20px;
+  box-sizing: border-box;
+  /* background-color: rgb(107, 107, 111); */
+  box-shadow: 0 0 8px gray;
+}
+/* header */
+.header-home{
+  width: 100%;
+ 
+}
+
+.header-home-title{
+  width:150px;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgrey;
+  border-bottom: double 5px #4dd0e1;
+}
+
+.header-home-img{
+  width: 70%;
+  height: 300px;
+ margin: auto;
+}
+
+/* main */
+.main-home{
+  margin: 20px 0; 
+}
+
+.main-home-container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.main-home-left{
+  width: 45%;
+}
+
+.main-home-right{
+  width: 45%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.main-home-reset{
+  text-align: center;
+}
+
+/* footer */
+.footer-home-conteiner{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* other main */
+.main-other{
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.main-other-footer{
+  margin: auto;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
