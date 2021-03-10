@@ -40,6 +40,8 @@ Fai Fai Diet
 ページのトップには各食材のボタンを設置しました。
 ボタンを押すことによってその食材の栄養成分が表示されるようになっています。
 
+https://github.com/kengo95/diet-app/issues/2#issue-827948311
+
 
 
 
