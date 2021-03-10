@@ -66,8 +66,9 @@ Fai Fai Diet
 
 ![five](https://user-images.githubusercontent.com/78431096/110662843-3d518000-8209-11eb-8bfa-ade2c013d64b.gif)
 
+### 使用技術
 
-
+* HTML * CSS * JavaScript * React * Reducer * Material-ui 
 
 
 
