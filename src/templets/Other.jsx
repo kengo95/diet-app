@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { useDispatch } from "react-redux";
-import { Text, TextInput, PrimaryButton, OtherButton } from "../components/UIkid/index"
+import { Text, TextInput, OtherButton } from "../components/UIkid/index"
 import { push } from "connected-react-router"
 import { FoodSumAdd } from "../reducers/foodSum/actions"
 import "../assets/css/style.css"

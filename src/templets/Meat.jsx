@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { FoodSumAdd } from "../reducers/foodSum/actions"
 import { TextInput, PrimaryButton, DenseTable } from "../components/UIkid/index"
 import { push } from "connected-react-router"
@@ -8,10 +8,9 @@ import "../assets/css/style.css"
 import "../assets/css/components.css"
 const Meat = () => {
   const dispatch = useDispatch()
-  const selector = useSelector((state) => state)
   const [number, setNumber] = useState('');
   const [meatType, setMeatType] = useState(false);
-  const [meatName, setMeatName] = useState('牛肉');
+  const meatName = '牛肉';
   const [meatVal, setMeatVal] = useState(100);
   const [meatKal, setMeatKal] = useState(372);
   const [meatProtein, setMeatProtein] = useState(14.5);

@@ -1,10 +1,9 @@
-import { formatMs } from "@material-ui/core"
-import React, { useState } from "react"
+import React from "react"
 import {Switch , Route} from "react-router"
 import {Home ,Meat,Rice, Egg ,Salmon,Other} from "./templets"
 
 const Router =()=>{
-  const [foodSum, addFoodSum]=useState('1')
+  
   return (
     <Switch>
       <Route exact path={"/home"}  component={Home} />

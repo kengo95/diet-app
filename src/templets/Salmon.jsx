@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { FoodSumAdd} from "../reducers/foodSum/actions"
 import { TextInput, PrimaryButton, DenseTable } from "../components/UIkid/index"
 import { push } from "connected-react-router"
@@ -8,10 +8,9 @@ import "../assets/css/style.css"
 import "../assets/css/components.css"
 const Salmon = () => {
   const dispatch = useDispatch()
-  const selector = useSelector((state) => state)
   const [number, setNumber] = useState('');
   const [salmonType, setSalmonType] = useState(false);
-  const [salmonName, setSalmonName] = useState('鮭');
+  const salmonName ='鮭';
   const [salmonVal, setSalmonVal] = useState(100);
   const [salmonKal, setSalmonKal] = useState(128);
   const [salmonProtein, setSalmonProtein] = useState(22.5);

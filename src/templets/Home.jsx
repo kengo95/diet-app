@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { FoodSumAdd} from "../reducers/foodSum/actions"
 import { TextInput, PrimaryButton, DenseTable } from "../components/UIkid/index"
 import { push } from "connected-react-router"
@@ -8,10 +8,9 @@ import "../assets/css/style.css"
 import "../assets/css/components.css"
 const Chiken = () => {
   const dispatch = useDispatch()
-  const selector = useSelector((state) => state)
   const [number, setNumber] = useState('');
   const [chikenType, setChikenType] = useState(false);
-  const [chikenName, setChikenName] = useState('胸肉');
+  const chikenName = '胸肉';
   const [chikenVal, setChikenVal] = useState(100);
   const [chikenKal, setChikenKal] = useState(108);
   const [chikenProtein, setChikenProtein] = useState(22);

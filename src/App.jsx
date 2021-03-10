@@ -2,7 +2,7 @@ import React from "react"
 import { useDispatch, useSelector } from "react-redux"
 import Router from "./Router"
 import { push } from "connected-react-router"
-import { PrimaryButton ,DeleteButton ,ClickButton} from "./components/UIkid/index"
+import {DeleteButton ,ClickButton} from "./components/UIkid/index"
 import { FoodDelete } from "./reducers/foodSum/actions"
 import "./assets/css/app.css"
 import "./assets/css/style.css"
@@ -16,7 +16,6 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { TextFormatOutlined } from "@material-ui/icons"
 //-----------------------material ui imort--------------------------
 
 //----------------------materiau ui 定義 ----------------------
@@ -52,7 +51,7 @@ const App = () => {
   return (
     <div className="app">
       <header className="header">
-      <h2 className="header-head">ダイエット応援サイト</h2>
+      <h2 className="header-head">Fai&nbsp;Fai&nbsp;Diet</h2>
       <div className="header-container">
         <div className="header-button"> <ClickButton label={"胸肉"} onClick={() => dispatch(push("/home"))} /></div>
         <div className="header-button"><ClickButton label={"白米"} onClick={() => dispatch(push("/rice"))} /></div>

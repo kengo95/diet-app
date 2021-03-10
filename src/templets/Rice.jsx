@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { FoodSumAdd} from "../reducers/foodSum/actions"
 import { TextInput, PrimaryButton, DenseTable } from "../components/UIkid/index"
 import { push } from "connected-react-router"
@@ -8,10 +8,9 @@ import "../assets/css/style.css"
 import "../assets/css/components.css"
 const Rice = () => {
   const dispatch = useDispatch()
-  const selector = useSelector((state) => state)
   const [number, setNumber] = useState('');
   const [riceType, setRiceType] = useState(false);
-  const [riceName, setRiceName] = useState('白米');
+  const riceName = '白米';
   const [riceVal, setRiceVal] = useState(100);
   const [riceKal, setRiceKal] = useState(168);
   const [riceProtein, setRiceProtein] = useState(2.5);
