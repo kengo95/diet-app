@@ -62,6 +62,11 @@ Fai Fai Diet
 
 更に各栄養素ごとの合計値も出るようにしました。
 
+間違えて追加してしまっても各項目ごとに削除できます。
+
+![five](https://user-images.githubusercontent.com/78431096/110662843-3d518000-8209-11eb-8bfa-ade2c013d64b.gif)
+
+
 
 
 
