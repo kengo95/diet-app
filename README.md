@@ -22,7 +22,7 @@
 
 ### タイトル
 
-[Fai Fai Diet](https://kengo95.github.io/diet-app/)
+[Fai Fai Diet](https://fai-fai-di.web.app/)
 
 ### 開発経緯
 
