@@ -68,7 +68,7 @@
 
 ### 使用技術
 
-・HTML ・CSS ・JavaScript ・React ・Reducer ・Material-ui 
+・HTML ・CSS ・JavaScript ・React ・Redux ・Material-ui 
 
 # データ構成
 
@@ -105,7 +105,7 @@
   
 * アプリの内容自体はレベルが高いとは言えませんが1つのアプリを自分なりに考えて作成できたことでWEBエンジニアに不可欠な自走力が身についたと実感します。
 
-* Reactの基礎及Reducerの理解を深めていく事ができました。
+* Reactの基礎及Reduxの理解を深めていく事ができました。
 
 * この経験を生かしエラーが出ても諦めず、常にか学び続けるエンジニアになります。
 
